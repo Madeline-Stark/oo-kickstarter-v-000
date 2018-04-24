@@ -6,13 +6,12 @@
 #backers. Refer back to the Code Along about Collaborating Objects.
 
 class Backer
-  attr_accessor :name 
+  attr_accessor :name
 
   def initialize(name)
-
-  end 
-
-
+    @name = name 
+  end
 
 
-end 
+
+end
